@@ -49,12 +49,17 @@ body {
     align-items: center;
     padding-right: 10px;
 }
-.nav-right-tag {
+.nav-right-tag a{
     display: inline;
     padding: 0 40px;
     font-size: 17px;
     font-weight: 600;
     color: white;
+    text-decoration: none;
+    transition: all 150ms linear;
+}
+.nav-right-tag a:hover{
+    color: rgb(255, 136, 136);
 }
 .first-section-container{
     width: 100%;
