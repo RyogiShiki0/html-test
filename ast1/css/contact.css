@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Gill Sans", sans-serif;
+    margin:0;
+    padding:0;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.page-content {
+    max-width: 1200px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container {
+    height:80px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    border-bottom: 5px solid red;
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.nav-left {
+    height:100%;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height:80%;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.nav-right-tag a{
+    display: inline;
+    padding: 0 40px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: all 150ms linear;
+}
+.nav-right-tag a:hover{
+    color: rgb(255, 136, 136);
+}
+.first-section-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.first-section{
+    height: 600px;
+    display: block;
+    width: 80%;
+    margin-top: 80px;
+}
+.first-section .title{
+    font-size:26px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: block;
+}
+.first-section .image{
+    height:300px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: url("../img/NERV_HQ_29.webp");
+}
+.first-section .contact-content{
+    display: flex;
+    justify-content: space-between;
+}
