@@ -63,30 +63,56 @@ body {
     align-content: center;
 }
 .first-section{
-    height: 600px;
     display: block;
     width: 80%;
-    margin-top: 80px;
+    margin-top: 60px;
 }
-.first-section .title{
-    font-size:40px;
-    text-align: center;
-    font-weight: 600;
-    display: block;
-}
-.first-section .image{
-    height:300px;
+.first-section .banner{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 0;
+    height: 300px;
     background-size: cover;
     background-image: url("../img/NERV_HQ_29.webp");
 }
 .first-section .discription{
-    display: block;
+    margin-top: 25px;
+    font-size: 17px;
+}
+.products-showcase-container{
     width: 100%;
-    text-align: center;
-    font-size:18px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
+}
+.products-showcase{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 60px;
+}
+.product-content{
+    padding: 10px 10px;
+}
+.product{
+    width: 32%;
+    background-color: rgb(255, 235, 235);
+}
+.product-title{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    display: block;
+}
+.product-image{
+    margin-top: 20px;
+    height:380px;
+    background-image: url("../img/NERV_HQ_29.webp");
+}
+.product-subtitle{
+    color: rgb(91, 91, 91);
+    font-style: italic;
+}
+.product-discription{
+    font-size: 18px;
+    font-weight: 300;
 }
