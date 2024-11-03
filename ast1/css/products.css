@@ -21,46 +21,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-.nav-container {
-    height:80px;
-    width: 100%;
-    background-color: rgb(36, 36, 36);
-    border-bottom: 5px solid red;
-    display: flex;
-    justify-content: center;
-}
-.nav {
-    width:80%;
-    display:flex;
-    justify-content: space-between;
-    height: 100%;
-}
-.nav-left {
-    height:100%;
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-}
-.nav-logo{
-    height:80%;
-}
-.nav-right{
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-}
-.nav-right-tag a{
-    display: inline;
-    padding: 0 40px;
-    font-size: 17px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    transition: all 150ms linear;
-}
-.nav-right-tag a:hover{
-    color: rgb(255, 136, 136);
-}
 .first-section-container{
     width: 100%;
     display: flex;
@@ -70,13 +30,16 @@ body {
 .first-section{
     display: block;
     width: 80%;
-    margin-top: 60px;
+    margin-top: 160px;
 }
 .first-section .banner{
     width: 100%;
     height: 300px;
     background-size: cover;
-    background-image: url("../img/NERV_HQ_29.webp");
+    overflow: hidden;
+}
+.first-section .banner{
+    width:100%;
 }
 .first-section .discription{
     margin-top: 25px;
