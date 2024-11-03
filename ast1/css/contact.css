@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: "Gill Sans", sans-serif;
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin:0;
     padding:0;
     background-color: rgb(255, 255, 255);
