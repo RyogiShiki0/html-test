@@ -7,6 +7,9 @@ body {
     margin:0;
     padding:0;
     background-color: rgb(255, 255, 255);
+    background-image: url('../img/78S.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .main {
     justify-content: center;
